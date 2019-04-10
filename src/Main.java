@@ -23,15 +23,40 @@ public class Main {
 		int num50s;
 		int num20s;
 		int num10s;
+		int num5s;
 		//How many 100 dollar bills?
 		System.out.println("your change is "+change);
 		num100s=(int)(change/100);
+		System.out.println(num100s+" x $100");
 		//Find out how much money is left
 		change=change%100;
 		//how many 50s?
-		
+		System.out.println("your change is "+change);
+		num50s=(int)(change/50);
+		System.out.println(num50s+" x $50");
+		//Find out how much money is left
+		change=change%50;
+		//how many 20s?
+		System.out.println("your change is "+change);
+		num20s=(int)(change/20);
+		System.out.println(num20s+" x $20");
+		//Find out how much money is left
+		change=change%20;
+		//how many 10s?
+		System.out.println("your change is "+change);
+		num10s=(int)(change/10);
+		System.out.println(num10s+" x $10");
+		//Find out how much money is left
+		change=change%10;
+		//how many 5s?
+		System.out.println("your change is "+change);
+		num5s=(int)(change/5);
+		System.out.println(num5s+" x $5");
+		//Find out how much money is left
+		change=change%5;		
 		System.out.println(num100s+" x $100");
-				
+		//BONUS: Only output if the value of the denomination is non-zero
+		//Ensure that the rounding is done properly. use If-statement! 
 		
 	}
 
