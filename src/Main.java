@@ -24,9 +24,7 @@ public class Main {
 		 int num20s;
 		 int num10s;
 		 int num5s;
-		 int num0.25s;
-		 int num0.05s;
-		 
+
 		 //How many 100 dollar bills?
 		 num100s=(int)(change/100);
 		 //Find out how much money is left
